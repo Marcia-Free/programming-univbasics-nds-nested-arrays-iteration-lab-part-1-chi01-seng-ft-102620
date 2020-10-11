@@ -7,8 +7,11 @@ def find_even_values(src)
   while count < scr.length do
    inner_count = 0
     while inner_count < scr[count].length do
+      
       if scr[count][inner_count] % 2 == 0
       p scr[count][inner_count]
+      end
+      
       inner_count += 1
     end
     
