@@ -4,12 +4,12 @@ def find_even_values(src)
   # Output all even values in each nested array
   
   count = 0 
-  while count < scr.length do
+  while count < array_of_arrays.length do
    inner_count = 0
-    while inner_count < scr[count].length do
+    while inner_count < array_of_arrays[count].length do
       
-      if scr[count][inner_count] % 2 == 0
-      p scr[count][inner_count]
+      if array_of_arrays[count][inner_count] % 2 == 0
+      p array_of_arrays[count][inner_count]
       end
       
       inner_count += 1
