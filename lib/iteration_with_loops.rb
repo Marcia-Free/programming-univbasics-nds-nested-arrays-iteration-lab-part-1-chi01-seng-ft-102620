@@ -5,11 +5,11 @@ def find_even_values(src)
   array_of_arrays
   
   count = 0 
-  while count < scr.length do
+  while count < src.length do
    inner_count = 0
-    while inner_count < scr[count].length do
+    while inner_count < src[count].length do
       
-      if scr[count][inner_count] % 2 == 0
+      if src[count][inner_count] % 2 == 0
       p scr[count][inner_count]
       end
       
